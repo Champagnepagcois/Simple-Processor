@@ -1,0 +1,9 @@
+ENTITY alu IS
+    PORT (
+	a : in std_logic_vector (1 downto 0) ; 
+	b : in std_logic_vector (1 downto 0) ; 
+	op : in std_logic  ; 
+	result : inout std_logic_vector (1 downto 0) ; 
+	carry : inout std_logic 
+    ) ;
+END alu ;

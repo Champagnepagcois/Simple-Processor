@@ -1,0 +1,6 @@
+MESSAGE "File: C:\Programarfinal\Proyecto\Registro\Registro.vhd" 
+MESSAGE "Compile Entity "FourTwoBitRegisters"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "FourTwoBitRegisters"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   FourTwoBitRegisters" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]" 

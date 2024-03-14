@@ -1,0 +1,402 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  CU.vhd
+Options:    -m -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalc22v10d-15pc -b CU.vhd -u CU.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Tue Jan 16 14:08:19 2024
+
+Library 'work' => directory 'lc22v10'
+Linking 'c:\tools\bin\std.vhd'.
+Linking 'c:\tools\lib\common\cypress.vhd'.
+Linking 'c:\tools\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'c:\tools\lib\ieee\work'
+Linking 'c:\tools\lib\ieee\work\stdlogic.vif'.
+Linking 'c:\tools\lib\ieee\work\syntocyp.vif'.
+Linking 'c:\tools\lib\ieee\work\synarith.vif'.
+Linking 'c:\tools\lib\ieee\work\synusgnd.vif'.
+CU.vhd (line 27, col 26):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+CU.vhd (line 27, col 39):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+CU.vhd (line 35, col 33):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+CU.vhd (line 35, col 45):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+CU.vhd (line 43, col 33):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+CU.vhd (line 43, col 45):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+CU.vhd (line 51, col 33):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+CU.vhd (line 51, col 45):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+CU.vhd (line 59, col 33):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+CU.vhd (line 59, col 45):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+CU.vhd (line 67, col 33):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+CU.vhd (line 67, col 45):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+CU.vhd (line 75, col 33):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+CU.vhd (line 75, col 45):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+CU.vhd (line 84, col 33):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+CU.vhd (line 84, col 45):  Note: Substituting module 'cmp_vv_us_bl' for '='.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Tue Jan 16 14:08:19 2024
+
+Linking 'c:\tools\bin\std.vhd'.
+Linking 'c:\tools\lib\common\cypress.vhd'.
+Linking 'c:\tools\lib\common\work\cypress.vif'.
+Linking 'c:\tools\lib\ieee\work\stdlogic.vif'.
+Linking 'c:\tools\lib\ieee\work\syntocyp.vif'.
+Linking 'c:\tools\lib\ieee\work\synarith.vif'.
+Linking 'c:\tools\lib\ieee\work\synusgnd.vif'.
+Linking 'c:\tools\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'c:\tools\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'c:\tools\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'c:\tools\lib\common\stdlogic\syntocyp.vif'.
+
+tovif:  No errors.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Tue Jan 16 14:08:19 2024
+
+Linking 'c:\tools\bin\std.vhd'.
+Linking 'c:\tools\lib\common\cypress.vhd'.
+Linking 'c:\tools\lib\common\work\cypress.vif'.
+Linking 'c:\tools\lib\ieee\work\stdlogic.vif'.
+Linking 'c:\tools\lib\ieee\work\syntocyp.vif'.
+Linking 'c:\tools\lib\ieee\work\synarith.vif'.
+Linking 'c:\tools\lib\ieee\work\synusgnd.vif'.
+Linking 'c:\tools\lib\common\stdlogic\lpmpkg.vif'.
+Linking 'c:\tools\lib\common\stdlogic\rtlpkg.vif'.
+Linking 'c:\tools\lib\common\stdlogic\mod_cnst.vif'.
+Linking 'c:\tools\lib\common\stdlogic\syntocyp.vif'.
+Linking 'c:\tools\lib\lc22v10\stdlogic\c22v10.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 13 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 9 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 0 wires.
+------------------------------------------------------
+Created 42 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (14:08:21)
+
+Input File(s): CU.pla
+Device       : C22V10
+Package      : palc22v10d-15pc
+ReportFile   : CU.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (14:08:21)
+
+Messages:
+  Information: Process virtual 'enabledecroutyD'enabledecroutyD ... expanded.
+  Information: Process virtual 'enabledecrinxanddoneD'enabledecrinxanddoneD ... expanded.
+  Information: Process virtual 'ainD'ainD ... expanded.
+  Information: Process virtual 'goutD'goutD ... expanded.
+  Information: Process virtual 'addsubD'addsubD ... expanded.
+  Information: Process virtual 'ginD'ginD ... expanded.
+  Information: Process virtual 'externD'externD ... expanded.
+  Information: Optimizing logic using best output polarity for signals:
+         addsub.D enabledecrinxanddone.D enabledecrouty.D extern.D
+
+  Information: Selected logic optimization OFF for signals:
+         addsub.C ain.D ain.C enabledecrinxanddone.C enabledecroutx.D
+         enabledecroutx.C enabledecrouty.C extern.C gin.D gin.C gout.D gout.C
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (14:08:21)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (14:08:21)
+</CYPRESSTAG>
+
+    addsub.D =
+          i(0) * i(1) * /t(0) * t(1) 
+        + addsub.Q * /i(0) * t(0) 
+        + addsub.Q * /i(1) 
+        + addsub.Q * /t(1) 
+
+    addsub.AR =
+          GND
+
+    addsub.SP =
+          GND
+
+    addsub.C =
+          clk 
+
+    ain.D =
+          i(1) * t(0) * /t(1) 
+
+    ain.AR =
+          GND
+
+    ain.SP =
+          GND
+
+    ain.C =
+          clk 
+
+    enabledecrinxanddone.D =
+          i(1) * t(0) * t(1) 
+        + /i(1) * t(0) * /t(1) 
+
+    enabledecrinxanddone.AR =
+          GND
+
+    enabledecrinxanddone.SP =
+          GND
+
+    enabledecrinxanddone.C =
+          clk 
+
+    enabledecroutx.D =
+          i(1) * t(0) * /t(1) 
+
+    enabledecroutx.AR =
+          GND
+
+    enabledecroutx.SP =
+          GND
+
+    enabledecroutx.C =
+          clk 
+
+    enabledecrouty.D =
+          i(0) * /i(1) * t(0) * /t(1) 
+        + i(1) * /t(0) * t(1) 
+
+    enabledecrouty.AR =
+          GND
+
+    enabledecrouty.SP =
+          GND
+
+    enabledecrouty.C =
+          clk 
+
+    extern.D =
+          extern.Q * /i(0) * i(1) * /t(0) * t(1) 
+        + /i(0) * /i(1) * t(0) * /t(1) 
+
+    extern.AR =
+          GND
+
+    extern.SP =
+          GND
+
+    extern.C =
+          clk 
+
+    gin.D =
+          i(1) * /t(0) * t(1) 
+
+    gin.AR =
+          GND
+
+    gin.SP =
+          GND
+
+    gin.C =
+          clk 
+
+    gout.D =
+          i(1) * t(0) * t(1) 
+
+    gout.AR =
+          GND
+
+    gout.SP =
+          GND
+
+    gout.C =
+          clk 
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (14:08:21)
+
+Messages:
+                 None.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
+PINOUT INFORMATION   (14:08:21)
+</CYPRESSTAG>
+Messages:
+  Information: Checking for duplicate NODE logic.
+                 None.
+
+
+                                 C22V10
+                 __________________________________________
+            clk =| 1|                                  |24|* not used       
+           t(1) =| 2|                                  |23|= extern         
+           t(0) =| 3|                                  |22|= enabledecrin.. 
+           i(1) =| 4|                                  |21|= gin            
+           i(0) =| 5|                                  |20|= ain            
+       not used *| 6|                                  |19|* not used       
+       not used *| 7|                                  |18|* not used       
+       not used *| 8|                                  |17|= enabledecroutx 
+       not used *| 9|                                  |16|= gout           
+       not used *|10|                                  |15|= enabledecrouty 
+       not used *|11|                                  |14|= addsub         
+       not used *|12|                                  |13|* not used       
+                 __________________________________________
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
+RESOURCE UTILIZATION (14:08:21)
+</CYPRESSTAG>
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | Dedicated Inputs   |    4  |   11  |
+                 | Clock/Inputs       |    1  |    1  |
+                 | I/O Macrocells     |    8  |   10  |
+                 ______________________________________
+                                          13  /   22   = 59  %
+
+
+  Information: Output Logic Product Term Utilization.
+
+                  Node#  Output Signal Name  Used   Max
+                 ________________________________________
+                 | 14  |  addsub          |   4  |   8  |
+                 | 15  |  enabledecrouty  |   2  |  10  |
+                 | 16  |  gout            |   1  |  12  |
+                 | 17  |  enabledecroutx  |   1  |  14  |
+                 | 18  |  Unused          |   0  |  16  |
+                 | 19  |  Unused          |   0  |  16  |
+                 | 20  |  ain             |   1  |  14  |
+                 | 21  |  gin             |   1  |  12  |
+                 | 22  |  enabledecrin..  |   2  |  10  |
+                 | 23  |  extern          |   2  |   8  |
+                 | 25  |  Unused          |   0  |   1  |
+                 ________________________________________
+                                             14  / 121   = 11  %
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+JEDEC ASSEMBLE             (14:08:21)
+
+Messages:
+  Information: Output file 'CU.pin' created.
+  Information: Output file 'CU.jed' created.
+
+  Usercode:    
+  Checksum:    7643
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully at 14:08:21

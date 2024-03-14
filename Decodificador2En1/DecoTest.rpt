@@ -1,0 +1,362 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  DecoTest.vhd
+Options:    -m -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalc22v10d-15pc -b DecoTest.vhd -u DecoTest.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Tue Jan 16 14:59:24 2024
+
+Library 'work' => directory 'lc22v10'
+Linking 'c:\tools\bin\std.vhd'.
+Linking 'c:\tools\lib\common\cypress.vhd'.
+Linking 'c:\tools\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'c:\tools\lib\ieee\work'
+Linking 'c:\tools\lib\ieee\work\stdlogic.vif'.
+Linking 'c:\tools\lib\ieee\work\syntocyp.vif'.
+Linking 'c:\tools\lib\ieee\work\synarith.vif'.
+Linking 'c:\tools\lib\ieee\work\synusgnd.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Tue Jan 16 14:59:24 2024
+
+Linking 'c:\tools\bin\std.vhd'.
+Linking 'c:\tools\lib\common\cypress.vhd'.
+Linking 'c:\tools\lib\common\work\cypress.vif'.
+Linking 'c:\tools\lib\ieee\work\stdlogic.vif'.
+Linking 'c:\tools\lib\ieee\work\syntocyp.vif'.
+Linking 'c:\tools\lib\ieee\work\synarith.vif'.
+Linking 'c:\tools\lib\ieee\work\synusgnd.vif'.
+
+tovif:  No errors.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Tue Jan 16 14:59:24 2024
+
+Linking 'c:\tools\bin\std.vhd'.
+Linking 'c:\tools\lib\common\cypress.vhd'.
+Linking 'c:\tools\lib\common\work\cypress.vif'.
+Linking 'c:\tools\lib\ieee\work\stdlogic.vif'.
+Linking 'c:\tools\lib\ieee\work\syntocyp.vif'.
+Linking 'c:\tools\lib\ieee\work\synarith.vif'.
+Linking 'c:\tools\lib\ieee\work\synusgnd.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 0 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+Created 23 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (14:59:25)
+
+Input File(s): DecoTest.pla
+Device       : C22V10
+Package      : palc22v10d-15pc
+ReportFile   : DecoTest.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (14:59:25)
+
+Messages:
+  Information: Process virtual '\routy(0)D\'\routy(0)D\ ... expanded.
+  Information: Process virtual '\routy(1)D\'\routy(1)D\ ... expanded.
+  Information: Process virtual '\routy(2)D\'\routy(2)D\ ... expanded.
+  Information: Process virtual '\routy(3)D\'\routy(3)D\ ... expanded.
+  Information: Process virtual '\rinx(0)D\'\rinx(0)D\ ... expanded.
+  Information: Process virtual '\rinx(1)D\'\rinx(1)D\ ... expanded.
+  Information: Process virtual '\rinx(2)D\'\rinx(2)D\ ... expanded.
+  Information: Process virtual '\rinx(3)D\'\rinx(3)D\ ... expanded.
+  Information: Selected logic optimization OFF for signals:
+         rinx(0).D rinx(0).C rinx(1).D rinx(1).C rinx(2).D rinx(2).C rinx(3).D
+         rinx(3).C routy(0).D routy(0).C routy(1).D routy(1).C routy(2).D
+         routy(2).C routy(3).D routy(3).C
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (14:59:25)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (14:59:25)
+</CYPRESSTAG>
+
+    rinx(0).D =
+          enabledecrinx * /xx(0) * /xx(1) 
+
+    rinx(0).AR =
+          GND
+
+    rinx(0).SP =
+          GND
+
+    rinx(0).C =
+          clk 
+
+    rinx(1).D =
+          enabledecrinx * xx(0) * /xx(1) 
+
+    rinx(1).AR =
+          GND
+
+    rinx(1).SP =
+          GND
+
+    rinx(1).C =
+          clk 
+
+    rinx(2).D =
+          enabledecrinx * /xx(0) * xx(1) 
+
+    rinx(2).AR =
+          GND
+
+    rinx(2).SP =
+          GND
+
+    rinx(2).C =
+          clk 
+
+    rinx(3).D =
+          enabledecrinx * xx(0) * xx(1) 
+
+    rinx(3).AR =
+          GND
+
+    rinx(3).SP =
+          GND
+
+    rinx(3).C =
+          clk 
+
+    routy(0).D =
+          enabledecrouty * /yy(0) * /yy(1) 
+
+    routy(0).AR =
+          GND
+
+    routy(0).SP =
+          GND
+
+    routy(0).C =
+          clk 
+
+    routy(1).D =
+          enabledecrouty * yy(0) * /yy(1) 
+
+    routy(1).AR =
+          GND
+
+    routy(1).SP =
+          GND
+
+    routy(1).C =
+          clk 
+
+    routy(2).D =
+          enabledecrouty * /yy(0) * yy(1) 
+
+    routy(2).AR =
+          GND
+
+    routy(2).SP =
+          GND
+
+    routy(2).C =
+          clk 
+
+    routy(3).D =
+          enabledecrouty * yy(0) * yy(1) 
+
+    routy(3).AR =
+          GND
+
+    routy(3).SP =
+          GND
+
+    routy(3).C =
+          clk 
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (14:59:25)
+
+Messages:
+                 None.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
+PINOUT INFORMATION   (14:59:25)
+</CYPRESSTAG>
+Messages:
+  Information: Checking for duplicate NODE logic.
+                 None.
+
+
+                                 C22V10
+                 __________________________________________
+            clk =| 1|                                  |24|* not used       
+          yy(1) =| 2|                                  |23|= routy(2)       
+          yy(0) =| 3|                                  |22|= routy(0)       
+          xx(1) =| 4|                                  |21|= rinx(2)        
+          xx(0) =| 5|                                  |20|= rinx(0)        
+ enabledecrouty =| 6|                                  |19|* not used       
+  enabledecrinx =| 7|                                  |18|* not used       
+       not used *| 8|                                  |17|= rinx(1)        
+       not used *| 9|                                  |16|= rinx(3)        
+       not used *|10|                                  |15|= routy(1)       
+       not used *|11|                                  |14|= routy(3)       
+       not used *|12|                                  |13|* not used       
+                 __________________________________________
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
+RESOURCE UTILIZATION (14:59:25)
+</CYPRESSTAG>
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | Dedicated Inputs   |    6  |   11  |
+                 | Clock/Inputs       |    1  |    1  |
+                 | I/O Macrocells     |    8  |   10  |
+                 ______________________________________
+                                          15  /   22   = 68  %
+
+
+  Information: Output Logic Product Term Utilization.
+
+                  Node#  Output Signal Name  Used   Max
+                 ________________________________________
+                 | 14  |  routy(3)        |   1  |   8  |
+                 | 15  |  routy(1)        |   1  |  10  |
+                 | 16  |  rinx(3)         |   1  |  12  |
+                 | 17  |  rinx(1)         |   1  |  14  |
+                 | 18  |  Unused          |   0  |  16  |
+                 | 19  |  Unused          |   0  |  16  |
+                 | 20  |  rinx(0)         |   1  |  14  |
+                 | 21  |  rinx(2)         |   1  |  12  |
+                 | 22  |  routy(0)        |   1  |  10  |
+                 | 23  |  routy(2)        |   1  |   8  |
+                 | 25  |  Unused          |   0  |   1  |
+                 ________________________________________
+                                              8  / 121   = 6   %
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+JEDEC ASSEMBLE             (14:59:25)
+
+Messages:
+  Information: Output file 'DecoTest.pin' created.
+  Information: Output file 'DecoTest.jed' created.
+
+  Usercode:    
+  Checksum:    5742
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully at 14:59:25

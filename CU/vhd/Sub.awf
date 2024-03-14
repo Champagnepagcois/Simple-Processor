@@ -1,0 +1,100 @@
+$WAVE
+$SIGNAL 1 AddSub -1 0 OUT 350000
+$SIGNAL 2 Ain -1 0 OUT 350000
+$SIGNAL 5 EnableDecROutX -1 0 OUT 350000
+$SIGNAL 6 EnableDecROutY -1 0 OUT 350000
+$SIGNAL 4 EnableDecRinXAndDone -1 0 OUT 350000
+$SIGNAL 7 Extern -1 0 OUT 350000
+$SIGNAL 8 Gin -1 0 OUT 350000
+$SIGNAL 9 Gout -1 0 OUT 350000
+$BUS 10 2 I -1 0 IN 350000
+$SIGNAL 12 "(1)" 10 0 IN 350000
+12 Stimulator="KEY:KEY:Override:65/0,1:A:1:0ps"
+$SIGNAL 13 "(0)" 10 1 IN 350000
+13 Stimulator="KEY:KEY:Override:83/0,1:S:1:0ps"
+$BUS 11 2 T -1 0 IN 350000
+$SIGNAL 14 "(1)" 11 0 IN 350000
+14 Stimulator="KEY:KEY:Override:90/0,1:Z:1:0ps;50ns"
+$SIGNAL 15 "(0)" 11 1 IN 350000
+15 Stimulator="KEY:KEY:Override:88/0,1:X:1:0ps"
+$SIGNAL 3 clk -1 0 IN 350000
+3 Stimulator="KEY:KEY:Override:67/0,1:C:1:0ps"
+$EVENTS
+I 0 "e#9#std_logicc9 UX01ZWLH-"
+S 1 0
+S 2 0
+S 3 0
+S 4 0
+S 5 0
+S 6 0
+S 7 0
+S 8 0
+S 9 0
+I 1 "a#28#std_logic_vector(1 downto 0)1 ricd1 0 e#9#std_logicc9 UX01ZWLH-"
+S 10 1
+S 11 1
+S 12 0
+S 13 0
+S 14 0
+S 15 0
+1 U
+2 U
+3 U
+4 U
+5 U
+6 U
+7 U
+8 U
+9 U
+12 U
+13 U
+14 U
+15 U
+D 1
+14 0
+15 0
+12 0
+13 0
+3 0
+T 50000
+D 1
+13 1
+12 1
+15 1
+3 1
+D 2
+7 0
+9 0
+8 0
+6 0
+4 0
+2 1
+5 1
+T 50000
+D 1
+15 0
+3 0
+T 50000
+D 1
+14 1
+3 1
+D 2
+2 0
+5 0
+1 1
+8 1
+6 1
+T 50000
+D 1
+3 0
+T 50000
+D 1
+15 1
+3 1
+D 2
+1 0
+8 0
+6 0
+4 1
+9 1
+$ENDWAVE

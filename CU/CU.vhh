@@ -1,0 +1,15 @@
+ENTITY cu IS
+    PORT (
+	i : in std_logic_vector (1 downto 0) ; 
+	t : in std_logic_vector (1 downto 0) ; 
+	clk : in std_logic  ; 
+	extern : inout std_logic  ; 
+	gin : inout std_logic  ; 
+	addsub : inout std_logic  ; 
+	gout : inout std_logic  ; 
+	ain : inout std_logic  ; 
+	enabledecrinxanddone : inout std_logic  ; 
+	enabledecroutx : inout std_logic  ; 
+	enabledecrouty : inout std_logic 
+    ) ;
+END cu ;

@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: C:\tools\Proyecto\Prueba2\Fw\w.vhd
+ Compile Entity "bit_register"
+ Compile Architecture "Behavioral" of Entity "bit_register"
+ Top-Level unit detected
+ Entity  =>   bit_register
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]

@@ -1,0 +1,6 @@
+MESSAGE "File: C:\tools\Proyecto\Prueba2\Fw\w.vhd" 
+MESSAGE "Compile Entity "bit_register"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "bit_register"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   bit_register" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]" 

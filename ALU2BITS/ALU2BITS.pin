@@ -1,0 +1,14 @@
+Cypress Package: palc22v10d-15pc  PinOut File: ALU2BITS.pin
+
+This file was created on 01/13/2024 at 22:11:58 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+op in <> Enabled Normal 1 <> [Auto] 
+b(1) in <> Enabled Normal 2 <> [Auto] 
+b(0) in <> Enabled Normal 3 <> [Auto] 
+a(1) in <> Enabled Normal 4 <> [Auto] 
+a(0) in <> Enabled Normal 5 <> [Auto] 
+result(1) out <> Enabled Normal 15 <> [Auto] 
+carry out <> Enabled Normal 16 <> [Auto] 
+result(0) out <> Enabled Normal 22 <> [Auto] 

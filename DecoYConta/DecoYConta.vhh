@@ -1,0 +1,10 @@
+ENTITY contador_y_decodificador IS
+    PORT (
+	clk : in std_logic  ; 
+	reset : in std_logic  ; 
+	enabledecroutx : in std_logic  ; 
+	xx : in std_logic_vector (1 downto 0) ; 
+	salida_contador : inout std_logic_vector (1 downto 0) ; 
+	routx : inout std_logic_vector (3 downto 0)
+    ) ;
+END contador_y_decodificador ;

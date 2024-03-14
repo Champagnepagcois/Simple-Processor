@@ -1,0 +1,19 @@
+Cypress Package: palc22v10d-15pc  PinOut File: CU.pin
+
+This file was created on 01/16/2024 at 14:08:21 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+t(1) in <> Enabled Normal 2 <> [Auto] 
+t(0) in <> Enabled Normal 3 <> [Auto] 
+i(1) in <> Enabled Normal 4 <> [Auto] 
+i(0) in <> Enabled Normal 5 <> [Auto] 
+addsub inout <> Enabled Normal 14 <> [Auto] 
+enabledecrouty out <> Enabled Normal 15 <> [Auto] 
+gout out <> Enabled Normal 16 <> [Auto] 
+enabledecroutx out <> Enabled Normal 17 <> [Auto] 
+ain out <> Enabled Normal 20 <> [Auto] 
+gin out <> Enabled Normal 21 <> [Auto] 
+enabledecrinxanddone out <> Enabled Normal 22 <> [Auto] 
+extern inout <> Enabled Normal 23 <> [Auto] 

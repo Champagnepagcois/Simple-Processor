@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: C:\tools\Proyecto\Prueba2\DecoYConta\vhd\DecoYConta.vhd
+ Compile Entity "contador_y_decodificador"
+ Compile Architecture "DSMB" of Entity "contador_y_decodificador"
+ Top-Level unit detected
+ Entity  =>   contador_y_decodificador
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]

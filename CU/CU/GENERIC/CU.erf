@@ -1,0 +1,5 @@
+MESSAGE "File: C:\tools\Proyecto\Prueba2\CU\CU.vhd" 
+MESSAGE "Compile Entity "CU"" 
+MESSAGE "Entity "CU" has been skipped - no difference detected." 
+MESSAGE "Compile Architecture "Behavioral" of Entity "CU"" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]" 

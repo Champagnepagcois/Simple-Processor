@@ -1,0 +1,2 @@
+DecoTest.vhd #Entity decodificador_2_a_4 6
+DecoTest.vhd #Architecture behavioral decodificador_2_a_4 17

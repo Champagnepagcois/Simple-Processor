@@ -1,0 +1,2 @@
+w.vhd #Entity bit_register 6
+w.vhd #Architecture behavioral bit_register 13

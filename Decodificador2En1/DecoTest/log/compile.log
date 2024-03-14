@@ -1,0 +1,18 @@
+ Compilation with file reorder...
+ File: C:\tools\Proyecto\Prueba2\Decodificador2En1\DecoTest.vhd
+ Compile Entity "Decodificador_2_a_4"
+ Compile Architecture "Behavioral" of Entity "Decodificador_2_a_4"
+ Top-Level unit detected
+ Entity  =>   Decodificador_2_a_4
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+ Compilation...
+ File: C:\tools\Proyecto\Prueba2\Decodificador2En1\DecoTest.vhd
+ Compile Entity "Decodificador_2_a_4"
+ Entity "Decodificador_2_a_4" has been skipped - no difference detected.
+ Compile Architecture "Behavioral" of Entity "Decodificador_2_a_4"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+ Compilation...
+ File: C:\tools\Proyecto\Prueba2\Decodificador2En1\DecoTest.vhd
+ Compile Entity "Decodificador_2_a_4"
+ Compile Architecture "Behavioral" of Entity "Decodificador_2_a_4"
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]

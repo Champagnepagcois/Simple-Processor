@@ -1,0 +1,8 @@
+[Project]
+Current config=GENERIC
+VCS=0
+modified=84
+[Configurations]
+GENERIC=DecoTest
+[Files]
+/C:\tools\Proyecto\Prueba2\Decodificador2En1\DecoTest.vhd=4, 1 31082686 3795571816, 0, , , ,

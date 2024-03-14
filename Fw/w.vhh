@@ -1,0 +1,8 @@
+ENTITY bit_register IS
+    PORT (
+	clk : in std_logic  ; 
+	reset : in std_logic  ; 
+	data_in : in std_logic  ; 
+	data_out : inout std_logic 
+    ) ;
+END bit_register ;

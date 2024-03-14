@@ -1,0 +1,8 @@
+[Project]
+Current config=GENERIC
+VCS=0
+modified=9
+[Configurations]
+GENERIC=ALU2BITS
+[Files]
+/C:\Programarfinal\Proyecto\ALU2BITS\vhd\ALU2BITS.vhd=4, 1 31082143 3512877363, 0, , , ,
